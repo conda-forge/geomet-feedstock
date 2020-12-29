@@ -5,9 +5,11 @@ Home: https://github.com/geomet/geomet
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geomet-feedstock/blob/master/LICENSE.txt)
 
 Summary: GeoMet - Convert GeoJSON to WKT/WKB, and vice versa
+
+Development: https://github.com/geomet/geomet
 
 Convert GeoJSON to WKT/WKB (Well-Known Text/Binary) or GeoPackage Binary,
 and vice versa. Extended WKB/WKT are also supported.
