@@ -1,5 +1,5 @@
 {% set name = "geomet" %}
-{% set version = "0.3.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cb52411978ee01ff104ab48f108d7333b14423ae7a15a65fee25b7d29bda2e1b
+  sha256: 0020a4426469934fb58f541cdc23f27c0c0fbbb3d003ee2cb76bb7ffa96a7506
 
 build:
   noarch: python
@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - six
     - click
 
